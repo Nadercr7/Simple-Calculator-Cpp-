@@ -21,27 +21,27 @@ int main()
         {
             case 1:
                 res = numOne+numTwo;
-                cout<<"\nResult = "<<res;
+                cout<<"\nResult = "<<res<<endl;
                 break;
             case 2:
                 res = numOne-numTwo;
-                cout<<"\nResult = "<<res;
+                cout<<"\nResult = "<<res<<endl;
                 break;
             case 3:
                 res = numOne*numTwo;
-                cout<<"\nResult = "<<res;
+                cout<<"\nResult = "<<res<<endl;
                 break;
             case 4:
                 if (numTwo != 0){
                 res = numOne/numTwo;
-                cout<<"\nResult = "<<res;
+                cout<<"\nResult = "<<res<<endl;
                 break;
                 }
-                else cout << "Error";
+                else cout << "Error"<<endl;
             case 5:
                 return 0;
             default:
-                cout<<"\nWrong Choice!";
+                cout<<"\nWrong Choice!"<<endl;
                 break;
         }
     }while(choice!=5);
